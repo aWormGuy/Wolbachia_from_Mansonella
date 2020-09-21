@@ -2,7 +2,7 @@ wMpe	F	03.wMpe1.bins-2-4-combined.fasta
 wMoz	F	wMoz2.mags_v1.fasta
 wMhie	F	wMhie.genome.fasta
 wCle	F	wCle_genome.fasta
-wBm		D	wBm.genome.fna
+wBm	D	wBm.genome.fna
 wLsig	D	wLsig.genome.fna
 wWb	D	wWb.genome.fna
 wDimm	C	wDimm.genome.fna
