@@ -26,7 +26,7 @@ selected_species <- colnames(orthofinder_df)[2:(ncol(orthofinder_df) -1)] # Defa
 selected_species <- c("wCle", "wMhie", "wMoviF", "wOcae", "wMoz", "wMpe")
 
 ## Get the presence/absence matrix
-orthofinder_matrix <- (orthofinder_df[,retain_Columns] >= 1) + 0
+orthofinder_matrix <- (orthofinder_df[,selected_species] >= 1) + 0
 
 ## convert back to df
 orthofinder_mx2df <- as.data.frame(orthofinder_matrix)
