@@ -52,7 +52,7 @@ upset(orthofinder_mx2df, nsets = ncol(orthofinder_mx2df), order.by="freq")
 ( final_upset <- upset(orthofinder_mx2df, nsets = ncol(orthofinder_mx2df), 
 	order.by="degree", 
 	nintersects= NA,
-	sets = sets_to_view, 
+	sets = selected_species, 
 	keep.order = T, 
 	sets.x.label = "Number of orthogroups"
 	) 
